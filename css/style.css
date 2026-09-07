@@ -1,0 +1,63 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+/* Encabezado y pie de página en verde */
+header, footer {
+    background-color: #3b5236;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Tamaño del logo */
+.logo-header {
+    width: 60px;
+    height: 60px;
+}
+
+/* Menú en línea horizontal */
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: white;
+}
+
+/* Contenido centrado */
+main {
+    width: 80%;
+    margin: 20px auto;
+}
+
+/* Secciones con fondo blanco */
+section {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+
+img {
+    max-width: 100%;
+    display: block;
+    margin: 10px 0;
+}
+
+/* Forms */
+input, textarea {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #3b5236;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+}
