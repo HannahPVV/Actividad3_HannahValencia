@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título de la página -->
+    <title>Aroma Café - Especialidades y Repostería</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/logo.png" type="image/png">
+
+    <!-- Enlace a la hoja de estilos CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    
+</head>
+<body>
+
+    <!-- Encabezado principal del sitio -->
+    <header>
+        <!-- Logo principal -->
+        <img src="img/logo.png" alt="Logo de Aroma Café" class="logo-header" width="70" height="70">
+        <h1>Aroma Café</h1>
+        <p>Tu espacio ideal para disfrutar café de especialidad y deliciosa repostería.</p>
+        
+        <!-- Menú de navegación principal con enlaces internos -->
+        <nav>
+            <ul>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#menu">Menú</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenido principal de la página -->
+    <main>
+
+        <!-- Primera sección: Sobre la cafetería -->
+        <section id="nosotros">
+            <h2>Sobre Nosotros</h2>
+            <p>En Aroma Café nos apasiona ofrecer productos de alta calidad en un espacio cómodo y acogedor.</p>
+            <p>Contamos con áreas diseñadas para relajarte, trabajar o disfrutar con amigos, incluyendo nuestra terraza al aire libre.</p>
+            
+            <!-- Imagen 1: JPG -->
+            <img src="img/cafeteria.jpg" alt="Fachada exterior de Aroma Café">
+            
+            <!-- Imagen 2: JPEG -->
+            <img src="img/terraza.jpeg" alt="Terraza al aire libre de la cafetería">
+        </section>
+
+        <!-- Segunda sección: Menú y especialidades -->
+        <section id="menu">
+            <h2>Nuestras Especialidades</h2>
+            <p>Descubre nuestras bebidas preparadas al momento por nuestros baristas.</p>
+
+            <!-- Imagen 3: JPG -->
+            <img src="img/latte.jpg" alt="Café Latte caliente servido con panqué de plátano">
+
+            <h3>Bebidas y Postres Más Populares</h3>
+            <!-- Lista desordenada requerida -->
+            <ul>
+                <li>Café Latte clásico con panqué casero</li>
+                <li>Matcha Latte con Frutos Rojos </li>
+                <li>Espresso doble de grano de Chiapas</li>
+                <li>Capuchino </li>
+            </ul>
+
+            <!-- Imagen 4: JPG -->
+            <img src="img/matcha.jpg" alt="Matcha Latte con Frutos Rojos">
+        </section>
+
+        <!-- Tercera sección: Formulario de reservas y contacto -->
+        <section id="contacto">
+            <h2>Reserva tu Mesa o Contáctanos</h2>
+            <p>¿Tienes alguna duda o quieres reservar un espacio en nuestra terraza? Déjanos tu mensaje:</p>
+
+            <!-- Formulario de contacto requerido -->
+            <form>
+                <!-- Campo Nombre -->
+                <label for="nombre">Nombre completo:</label><br>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required><br><br>
+
+                <!-- Campo Correo Electrónico -->
+                <label for="email">Correo electrónico:</label><br>
+                <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required><br><br>
+
+                <!-- Campo Mensaje -->
+                <label for="mensaje">Mensaje o detalles de reservación:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje aquí..." required></textarea><br><br>
+
+                <!-- Botón de Envío -->
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2026 Aroma Café. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
